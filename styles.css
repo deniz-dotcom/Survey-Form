@@ -1,0 +1,230 @@
+/* HEADER */
+
+body {
+  background-image:url(https://cdn.wallpapersafari.com/20/98/XJt7VB.jpg);
+  color: rgb(214, 214, 214);
+  font-family: arial, sans-serif;
+  padding: 25px;
+  background-size: cover;
+
+}
+
+h1, p {
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  height: 1px;
+  color: rgb(220, 220, 220);
+  background-color: rgb(220, 220, 220);
+  width: 450px;
+  margin-top: 8px;
+}
+
+p {
+  margin-top: 30px;
+}
+
+#when {
+  margin: 0;
+}
+
+#title {
+  margin-bottom: 20px;
+}
+
+/* SURVEY-FORM */
+
+form {
+  background-color: rgba(0, 0, 0, 0.559);
+  width: 550px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding-left: 5px;  
+  padding-right: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(100, 21, 44, 0.509);
+  color: rgb(201, 201, 201);
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+#name:focus, #email:focus {
+  width: 100%;
+}
+
+#dropdown {
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: rgb(201, 201, 201);
+  height: 50px;
+}
+
+select {
+  margin-left: 20px;
+  background-color: rgba(100, 21, 44, 0.509);
+  border:none;
+  border-radius: 10px;
+  color: rgb(201, 201, 201);
+  font-size: 17px;
+  height: 50px;  
+  width: 200px;
+  padding-left: 10px;
+} 
+option {
+  background-color: black;
+}
+
+input[type="radio"]{
+  margin: 0 3px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.radio-label {
+  margin-top: 0;
+}
+
+#second-fieldset {
+  margin-top: 10px;
+  margin-bottom: 0;  
+}
+
+#messi {
+  color: rgb(63, 217, 255);
+}
+
+#ronaldo {
+  color:rgb(255, 83, 83)
+}
+
+#ron {
+  color: rgb(43, 147, 19);
+}
+
+#mes {
+  color: rgb(120, 120, 120);
+}
+
+span {
+  vertical-align: middle;
+}
+
+input[type="checkbox"]{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 3px 0 0;
+}
+
+.checkbox-label {
+  margin: 0 0 -3px 0;  
+}
+
+.radio-label-one {
+  margin-bottom: -5px;
+}
+
+.radio-label-two {
+  margin-top: -10px;
+}
+
+#fieldset-one {
+  margin-bottom: 75px;
+}
+
+#legend-one {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+  width: 530px;
+  border-radius: 7px;
+  background-color: rgba(100, 21, 44, 0.509);
+  color:white;
+  max-height: 65px;
+  font-size: 15px;
+  min-height: 65px;
+  max-width: 530px;
+  min-width: 530px;
+  border: none;
+}
+
+textarea::placeholder {
+  padding-left: 5px;
+}
+
+a {
+  color: rgb(42, 42, 223); 
+}
+
+#last-fieldset {
+  margin-top: 15px;
+}
+
+#term-label {
+  font-size: 16px;
+  margin-bottom: -20px;
+}
+
+#terms {
+  margin-right: 5px;
+}
+
+/* SUBMIT BUTTON */
+
+#submit {
+  width: 535px;
+  font-weight: bold;
+  font-size:18px;
+  color: white;
+  padding: 0;
+  background-color: rgba(255, 0, 0, 0.507);
+  height: 50px;
+  border-radius: 10px;
+  border:none; 
+  margin-top: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+#submit:hover{
+  background-color: rgba(209, 0, 0, 0.507);
+}
+
+#submit:active {
+  opacity: 0.8;
+}
+
+#button-a {
+  text-decoration: none;
+  color: white;   
+}
